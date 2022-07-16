@@ -1,0 +1,64 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background: rgb(111,104,223);
+  background: radial-gradient(circle, rgba(111,104,223,1) 0%, rgba(24,19,97,1) 61%, rgba(1,3,54,1) 100%);
+}
+h1 {
+  color: rgb(10, 5, 88);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mainContent {
+  max-width: 600px;
+  height: auto;
+  margin: 35vh auto;
+}
+
+#input {
+  margin-right: 50px;
+  width: 60%;
+}
+
+#findButton,
+#input {
+  padding: 10px 4px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+#findButton {
+  background-color: rgb(26, 7, 237);
+  opacity: 0.6;
+  transition: 700ms;
+  width: 30%;
+  color: white
+}
+#findButton:hover {
+  cursor: pointer;
+  transition: 700ms;
+  opacity: 1.0
+}
+
+.background {
+  margin-top: 20px;
+  height: 65px;
+  width: auto;
+  font-size: 19px;
+  border-radius: 12px;
+  background-color: rgb(226, 226, 226);
+  padding: 20px;
+  transition: 700ms;
+}
+
+p {
+  color: rgb(70, 70, 70)
+}
